@@ -22,7 +22,7 @@ export default function Product({ product }) {
       <p className="text-[#919090] text-sm ">{product.description}</p>
       <p className="text-rose-600 text-sm mt-4">
         <span className="text-[#919090] line-through">${product.price}</span>{" "}
-        {Math.round(updatePrice)}
+        ${Math.round(updatePrice)}
       </p>
     </div>
   );
